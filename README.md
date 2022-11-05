@@ -36,7 +36,7 @@ Clarusway Web Page created with the Router method.
 ## Project Skeleton
 
 ```
-Random User App (folder)
+Clarusway Web Page (folder)
 |
 ├── public
 |     ├── images
