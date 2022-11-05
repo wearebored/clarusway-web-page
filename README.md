@@ -1,8 +1,8 @@
-# RANDOM USER APP
+# Clarusway Web Page
 
 ## Description
 
-Project is an application that gives random user information.
+Clarusway Web Page created with the Router method.
 
 ## Tools used in the project
 
@@ -15,21 +15,23 @@ Project is an application that gives random user information.
 - JS
 
 - ReactJS
-  - Axios, get
-  - useState
-  - useEffect
   - .map
-  - props
+  - BrowserRouter
+  - Route
+  - Routes
+  - useLocation
+  - NavLink
+  - useNavigate
 
 <!-- ## Github-pages -->
 
 ## Pages
 
-[ Project Website ](https://cheery-empanada-18cced.netlify.app/)
+[ Project Website ](https://delicate-cheesecake-7f6f1c.netlify.app/)
 
 ## Preview
 
-![ Project Snapshot ](randomuser.gif)
+![ Project Snapshot ](claruswaywebpage.gif)
 
 ## Project Skeleton
 
@@ -37,19 +39,51 @@ Project is an application that gives random user information.
 Random User App (folder)
 |
 ├── public
-|     |
+|     ├── images
 │     └── index.html
 |
 ├── src
 │    ├── components
 |    │       |
-|    │       ├── Header
-|    │       |     ├── Header.jsx
-|    │       |     └── header.scss
+|    │       ├── Footer
+|    │       |     ├── Footer.jsx
+|    │       |     └── footer.scss
+|    |       |
+|    |       ├── Navbar
+|    │       |     ├── Navbar.jsx
+|    │       |     └── navbar.scss
 |    │       |
 |    │       └── Card
 |    │             ├── Card.jsx
 |    │             └── card.scss
+|    │
+|    ├── helper
+|    │       └── carddata.js
+|    │
+|    ├── pages
+|    │       |
+|    │       ├── About
+|    │       |     ├── About.jsx
+|    │       |     └── about.scss
+|    |       |
+|    |       ├── Css
+|    │       |     ├── Css.jsx
+|    │       |     └── css.scss
+|    │       ├── Home
+|    │       |     ├── Home.jsx
+|    │       |     └── home.scss
+|    |       |
+|    |       ├── Html
+|    │       |     ├── Html.jsx
+|    │       |     └── html.scss
+|    |       |
+|    |       ├── Logo
+|    │       |     ├── Logo.jsx
+|    │       |     └── logo.scss
+|    |       |
+|    │       └── Services
+|    │             ├── Services.jsx
+|    │             └── services.scss
 |    │
 |    ├── sass
 |    |       ├── reset.scss
